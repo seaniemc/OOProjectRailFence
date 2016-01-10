@@ -15,8 +15,8 @@ public class Decryptor implements Runnable {//producer
 	}
 
 	public void run() {
-		RailFence rf= new RailFence();
-		String plainText = rf.decrypt(cypherText, key);
+		Decrypt dc= new Decrypt();
+		String plainText = dc.decrypt(cypherText, key);
 		double score= TextScorer.getScore(plainText); 
 		
 		Resultable r= new Result(plainText, score, key);// create a result
