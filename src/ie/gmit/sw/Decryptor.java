@@ -25,7 +25,7 @@ public class Decryptor implements Runnable {//producer
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
-		System.out.println(plainText +"Score: " + score+ "Key: " + key);
+		// System.out.println(plainText +"Score: " + score+ "Key: " + key);
 	}
 	
 }

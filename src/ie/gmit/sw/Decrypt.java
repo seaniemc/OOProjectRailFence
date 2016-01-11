@@ -65,6 +65,7 @@ public class Decrypt {
 		
 		return sb.toString(); //Convert the StringBuffer into a String and return it
 	}
+	 //Output the matrix (debug)
 	
 	//***** Output the 2D array in CSV format ***** 
 		private void printMatrix(char[][] matrix){

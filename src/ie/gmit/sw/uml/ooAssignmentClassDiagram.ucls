@@ -3,7 +3,7 @@
   realizations="true" associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
   <class id="1" language="java" name="ie.gmit.sw.Decryptor" project="ooAssignment" 
     file="/ooAssignment/src/ie/gmit/sw/Decryptor.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="135" width="261" x="882" y="173"/>    
+    <position height="-1" width="-1" x="992" y="244"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -12,7 +12,7 @@
   </class>  
   <class id="2" language="java" name="ie.gmit.sw.FileParser" project="ooAssignment" 
     file="/ooAssignment/src/ie/gmit/sw/FileParser.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="99" width="189" x="279" y="173"/>    
+    <position height="-1" width="-1" x="669" y="472"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -21,7 +21,7 @@
   </class>  
   <class id="3" language="java" name="ie.gmit.sw.TextScorer" project="ooAssignment" 
     file="/ooAssignment/src/ie/gmit/sw/TextScorer.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="135" width="185" x="508" y="173"/>    
+    <position height="-1" width="-1" x="660" y="174"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -39,7 +39,7 @@
   </class>  
   <class id="5" language="java" name="ie.gmit.sw.QuadGramMap" project="ooAssignment" 
     file="/ooAssignment/src/ie/gmit/sw/QuadGramMap.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="99" width="109" x="733" y="173"/>    
+    <position height="-1" width="-1" x="943" y="476"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -80,7 +80,7 @@
   </class>  
   <class id="10" language="java" name="ie.gmit.sw.Decrypt" project="ooAssignment" 
     file="/ooAssignment/src/ie/gmit/sw/Decrypt.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="117" width="144" x="2037" y="173"/>    
+    <position height="-1" width="-1" x="1781" y="573"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
