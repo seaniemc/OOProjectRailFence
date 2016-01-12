@@ -40,7 +40,6 @@ public class CyperBreaker {
 							finalResult = r; 
 						}
 
-
 					}
 					catch(InterruptedException e){
 						e.printStackTrace();
