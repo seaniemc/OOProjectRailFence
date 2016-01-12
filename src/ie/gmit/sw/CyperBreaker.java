@@ -19,7 +19,7 @@ public class CyperBreaker {
 	}
 
 	private void init() throws InterruptedException {
-		//start producers
+		//creates a thread pool half the size of te cypherText
 		ExecutorService executor = Executors.newFixedThreadPool(cyperText.length()/2);
 		for(int i = 2; i < cyperText.length()/2; i++){
 			executor.submit(new Decryptor(queue, cyperText,i));
@@ -33,9 +33,9 @@ public class CyperBreaker {
 
 				while (!queue.isEmpty()){
 					try{
-						Resultable r = queue.take();
+						Resultable r = queue.take(); //removes the head of this queue, waiting if necessary until an element becomes available
 						//	double score = r.getScore();
-						if(r.getScore() > finalScore){
+						if(r.getScore() > finalScore){//compares getScore to finalScore 
 							finalScore = r.getScore();
 							finalResult = r; 
 						}
@@ -59,6 +59,7 @@ public class CyperBreaker {
 		t.join();
 		
 		System.out.println("All threads done");
+		//prints out a sub string of the first 20 characters and the key
 		System.out.println(finalResult.getPlainText().substring(0, 20) + "... Key" + finalResult.getKey());
 
 
