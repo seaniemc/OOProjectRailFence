@@ -26,7 +26,6 @@ public class Runner {
 	
 		 int key = 0;	
 		 int choice = 0;
-		 String encr = "";
 		 String encryptMessage = " ";
 		 
 		 

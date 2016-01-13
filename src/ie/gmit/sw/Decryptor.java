@@ -19,7 +19,7 @@ public class Decryptor implements Runnable {//producer
 		String plainText = dc.decrypt(cypherText, key);
 		double score= TextScorer.getScore(plainText); 
 		
-		Resultable r= new Result(plainText, score, key);// create a result
+		Resultable r= new Result(plainText, score, key);// create a result object
 		try {
 			queue.put(r);
 		} catch (InterruptedException e) {

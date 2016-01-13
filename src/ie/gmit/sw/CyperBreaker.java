@@ -19,10 +19,10 @@ public class CyperBreaker {
 	}
 
 	private void init() throws InterruptedException {
-		//creates a thread pool half the size of te cypherText
+		//creates a thread pool half the size of text cypherText
 		ExecutorService executor = Executors.newFixedThreadPool(cyperText.length()/2);
 		for(int i = 2; i < cyperText.length()/2; i++){
-			executor.submit(new Decryptor(queue, cyperText,i));
+			executor.submit(new Decryptor(queue, cyperText,i));//submits 
 		}
 		// executor.submit(new Decryptor(queue, "POISEN", 9999)); P:OISEN OBJECT??
 
@@ -51,6 +51,7 @@ public class CyperBreaker {
 		t.start();
 
 		try {
+			//Run for a maximum of 1 day.
 			executor.awaitTermination(1, TimeUnit.DAYS);
 		} catch (InterruptedException e) {
 			// TODO: handle exception
